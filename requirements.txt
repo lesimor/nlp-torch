@@ -3,6 +3,11 @@
 httplib2==0.10.3
 matplotlib==2.0.0
 numpy==1.13.3
-torch
+torch==1.1.0
 torchvision==0.1.9
 Unidecode==0.04.21
+cython==0.29.9
+tabulate==0.8.3
+
+# FastText
+git+git://github.com/facebookresearch/fastText.git@master#egg=fastText
