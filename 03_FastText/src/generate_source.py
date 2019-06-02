@@ -26,3 +26,4 @@ PREDICT_FILE_PATH = os.path.join(SOURCE_DIR, PREDICT_FILE_NAME)
 if not os.path.isfile(PREDICT_FILE_PATH):
     f = open(PREDICT_FILE_PATH, 'w')
     f.write('sorry you are awful')
+    f.close()
